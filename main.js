@@ -1,7 +1,13 @@
-const apiKey = process.env.API_KEY;
+let serverURL;
+
+fetch(".netlify/functions/cle")
+.then(response => response.json())
+.then(json => {
+    serverURL = json.api;
+})
 
 const api = {
-  key: apiKey,
+  key: cle,
   base: "https://api.openweathermap.org/data/2.5/"
 }
 

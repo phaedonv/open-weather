@@ -1,7 +1,7 @@
-const myKey = sec.API_KEY;
+const apiKey = process.env.API_KEY;
 
 const api = {
-  key: myKey,
+  key: apiKey,
   base: "https://api.openweathermap.org/data/2.5/"
 }
 

@@ -3,7 +3,7 @@ let serverURL;
 fetch(".netlify/functions/cle")
 .then(response => response.json())
 .then(json => {
-    serverURL = json.api;
+    serverURL = json.cle;
 })
 
 const api = {

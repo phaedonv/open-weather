@@ -1,3 +1,4 @@
+/*
 let serverURL;
 
 fetch(".netlify/functions/cle")
@@ -5,9 +6,12 @@ fetch(".netlify/functions/cle")
 .then(json => {
     serverURL = json.cle;
 })
+*/
+
+require('dotenv').config()
 
 const api = {
-  key: cle,
+  key: process.env.API_KEY,
   base: "https://api.openweathermap.org/data/2.5/"
 }
 

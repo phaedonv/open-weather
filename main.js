@@ -1,4 +1,3 @@
-
 let serverURL;
 
 fetch(".netlify/functions/cle")

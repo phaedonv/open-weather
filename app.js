@@ -10,7 +10,7 @@ fetch(".netlify/functions/cle")
 // require('dotenv').config();
 
 const api = {
-  key: cle,
+  key: clee,
   base: "https://api.openweathermap.org/data/2.5/"
 }
 

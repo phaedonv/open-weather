@@ -7,13 +7,14 @@ fetch(".netlify/functions/cle")
     serverURL = json.cle;
 })
 */
+
 // require('dotenv').config();
 
 const api = {
-  key: #,
+  key: process.env.API_KEY,
   base: "https://api.openweathermap.org/data/2.5/"
 }
-
+/*
 const searchbox = document.querySelector('.search-box');
 searchbox.addEventListener('keypress', setQuery);
 
@@ -59,3 +60,4 @@ function dateBuilder (d) {
 
   return `${day} ${date} ${month} ${year}`;
 }
+*/

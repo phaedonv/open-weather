@@ -10,7 +10,8 @@
   "author": "phaedonv",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "request": "^2.88.2"
   },
   "devDependencies": {},
   "repository": {

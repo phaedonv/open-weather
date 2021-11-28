@@ -8,7 +8,7 @@ fetch(".netlify/functions/cle")
 })
 */
 
-require('dotenv').config()
+require('dotenv').config();
 
 const api = {
   key: process.env.API_KEY,

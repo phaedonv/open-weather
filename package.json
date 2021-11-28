@@ -1,7 +1,7 @@
 {
   "name": "weather-app-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "info in short!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaedonv/open-weather.git"
+  },
+  "bugs": {
+    "url": "https://github.com/phaedonv/open-weather/issues"
+  },
+  "homepage": "https://github.com/phaedonv/open-weather#readme"
 }

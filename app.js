@@ -1,14 +1,13 @@
-/*
+
 let serverURL;
 
-fetch(".netlify/functions/cle")
+fetch(".netlify/functions/key")
 .then(response => response.json())
 .then(json => {
-    serverURL = json.cle;
+    serverURL = json.key;
 })
-*/
 
-require('dotenv').config();
+// require('dotenv').config();
 
 const api = {
   key: process.env.API_KEY,

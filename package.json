@@ -2,12 +2,12 @@
   "name": "weather-app-js",
   "version": "1.0.0",
   "description": "info in short!",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "phaedonv",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0"

@@ -10,7 +10,7 @@ fetch(".netlify/functions/key")
 // require('dotenv').config();
 
 const api = {
-  key: process.env.API_KEY,
+  key: key,
   base: "https://api.openweathermap.org/data/2.5/"
 }
 

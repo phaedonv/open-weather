@@ -1,3 +1,5 @@
+console.log("hello from cle.js");
+/*
 exports.handler = async (event, context) => {
     return {
         statusCode: 200,
@@ -6,3 +8,6 @@ exports.handler = async (event, context) => {
         }),
     }
 }
+*/
+
+
